@@ -1,0 +1,30 @@
+th {
+    border-bottom: 200px;
+    background-color: rgba(0, 0, 0, 0.591);
+}
+
+tr {
+    /* margin: 0px 40px 0px 40px; */
+    height: 75px;
+    background-color: rgba(106, 112, 213, 0.1);
+    transition: 0.2s;
+}
+
+.data-row:hover {
+    /* scale: 101%; */
+    background-color: rgba(98, 104, 200, 0.2)
+}
+
+td {
+    border-bottom: 200px;
+}
+
+.left-side {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right-side {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
