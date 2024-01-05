@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>League of Legends Player Ranking</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="style.css">
+    <head>
+    <body class="default" onload="updateChart(), updateChart3()">
+        <div id='title' class="container-fluid">
+            <h1>League of Legends Player Ranking</h1>
+        </div>
+
+
+        <div id="test-nav-container">
+            <div class="nav-link-holder">
+                <a class="test-nav-link" href="index.html">Ranking</a>
+            </div>
+            <div class="nav-link-holder test-active">
+                <a class="test-nav-link test-active-text" href="statistics.html">Statistics</a>
+            </div>
+            <div class="nav-link-holder">
+                <a class="test-nav-link" href="settings.html">Authors</a>
+            </div>
+        </div>
+
+
+        <div class="settings-text">
+            <p style="text-align: center; margin-top: 80px; font-size: 18px;">Choose category:</p>
+            <!-- <div>
+                <div id="games-icon" onclick="displayChart1()"></div>
+                <div id="wins-icon" onclick="displayChart2()"></div>
+                <div id="teams-icon" onclick="displayChart3()"></div>
+            </div> -->
+            <div class="row icon-row" style="margin: 40px 0px 120px 0px;">
+
+                <div id="games-button" class="col-2 chart-button active-button" onclick="displayChart1(), switchButton(this)" style="margin: 0px 45px 0px 0px">
+                    <img id="games-icon" class="icon col-12" src="controller1.png" alt="Games Played">
+                    <p>Games Played</p>
+                </div>
+
+                <div id="win-button" class="col-2 chart-button" onclick="displayChart2(), switchButton(this)" style="margin: 0px 45px 0px 0px">
+                    <img id="win-icon" class="icon col-12" src="trophy1.png" alt="Win Rate">
+                    <p>Win Rate</p>
+                </div>
+
+                <div id="team-button" class="col-2 chart-button" onclick="displayChart3(), switchButton(this)">
+                    <img id="team-icon" class="icon col-12" src="teams1.png" alt="Team Members">
+                    <p>Team Members</p>
+                </div>
+
+
+            </div>
+
+            <div style="height: 620px;">
+                <div id="chart-container" class="row">
+                    <!-- <div class="dropdown col-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Change chart
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" id="chart_button1" onclick="displayChart1()">Games played</a></li>
+                            <li><a class="dropdown-item" id="chart_button2" onclick="displayChart2()">Win rate</a></li>
+                            <li><a class="dropdown-item" id="chart_button3" onclick="displayChart3()">Team members</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="chartBox" id="div_chart1">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                    <div class="chartBox" id="div_chart2">
+                        <canvas id="myChart2"></canvas>
+                    </div>
+                    <div class="chartBox" id="div_chart3">
+                        <canvas id="myChart3"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+        
+        <script>
+            function switchButton(element) {
+
+                games_button = document.getElementById('games-button');
+                win_button = document.getElementById('win-button');
+                team_button = document.getElementById('team-button');
+
+                games_button.classList.remove('active-button');
+                win_button.classList.remove('active-button');
+                team_button.classList.remove('active-button');
+
+
+                if (element.id == 'games-button') {
+                    games_button.classList.add('active-button')
+                }
+                else if(element.id == 'win-button') {
+                    win_button.classList.add('active-button')
+                }
+                else {
+                    team_button.classList.add('active-button');
+                }
+            }
+
+            function eraseDataFromChart(){
+                myChart2.config.data.labels=['0'];
+                myChart2.config.data.datasets[0].data=['0'];
+                myChart2.update();
+            }
+            //WYKRES 1 FUNKCJA
+            function updateChart(){
+                async function fetchData(){
+                    const url='https://my.api.mockaroo.com/tpr.json?key=1786d670';
+                    // const url="backup-data.json";
+                    const response= await fetch(url);
+                    const datapoints = await response.json();
+                    console.log(datapoints);
+                    return datapoints.slice(0, 5);
+                };
+
+                fetchData().then(datapoints =>{
+                    const gamesPlayed= datapoints.map(function(index){
+                        return index.games_played;
+                    })
+                    const player_name= datapoints.map(function(index){
+                        return index.full_name;
+                        // return index.full_name;
+                    })
+                    console.log(gamesPlayed);
+                    console.log(player_name);
+                    myChart.config.data.labels=player_name;
+                    myChart.config.data.datasets[0].data=gamesPlayed;
+                    myChart.config.data.datasets[0].label="Top 10 players: Games Played";
+                    myChart.update();
+
+                    const win_rate= datapoints.map(function(index){
+                        return index.win_percentage;
+                    })
+                    console.log(win_rate);
+                    console.log(player_name);
+                    myChart2.config.data.labels=player_name;
+                    myChart2.config.data.datasets[0].data=win_rate;
+                    // myChart2.config.data.datasets[0].label="Top 10 players: Win Percentage";
+                    myChart2.update();
+                }); 
+            }
+            
+            function displayChart1(){
+                const div_chart1=document.getElementById('div_chart1');
+                const div_chart2=document.getElementById('div_chart2');
+                const div_chart3=document.getElementById('div_chart3');
+                div_chart1.style.display='flex';
+                div_chart2.style.display='none';
+                div_chart3.style.display='none';
+            }
+            function displayChart2(){
+                const div_chart1=document.getElementById('div_chart1');
+                const div_chart2=document.getElementById('div_chart2');
+                const div_chart3=document.getElementById('div_chart3');
+                div_chart1.style.display='none';
+                div_chart2.style.display='flex';
+                div_chart3.style.display='none';
+            }
+            function displayChart3(){
+                const div_chart1=document.getElementById('div_chart1');
+                const div_chart2=document.getElementById('div_chart2');
+                const div_chart3=document.getElementById('div_chart3');
+                div_chart1.style.display='none';
+                div_chart2.style.display='none';
+                div_chart3.style.display='block'; //JESLI STRONA SIĘ ROZJEDZIE TO ZMIENIĆ FLEX, MOŻE NA BLOCK
+            }
+            
+            //WYKRES 2 FUNKCJA
+            // function updateChart2(){
+            //     async function fetchData(){
+            //         // const url='https://my.api.mockaroo.com/tpr.json?key=1786d670';
+            //         const url="backup-data.json";
+            //         const response= await fetch(url);
+            //         const datapoints = await response.json();
+            //         console.log(datapoints);
+            //         return datapoints.slice(0, 10);
+            //     };
+    
+            //     fetchData().then(datapoints =>{
+            //         const win_rate= datapoints.map(function(index){
+            //             return index.win_percentage;
+            //         })
+            //         const player_rank= datapoints.map(function(index){
+            //             return index.rank;
+            //         })
+            //         console.log(win_rate);
+            //         console.log(player_rank);
+            //         myChart2.config.data.labels=player_rank;
+            //         myChart2.config.data.datasets[0].data=win_rate;
+            //         myChart2.config.data.datasets[0].label="Top 10 players: Win Percentage";
+            //         myChart2.update();
+            //       }); 
+            // }
+          
+    
+            //WYKRES 3 FUNKCJA
+            function updateChart3() {
+                async function fetchData(){
+                    //   const url='https://my.api.mockaroo.com/tpr.json?key=1786d670';
+                      const url="backup-data.json";
+                      const response= await fetch(url);
+                      const datapoints = await response.json();
+                      console.log(datapoints);
+                      return datapoints;
+                };
+                fetchData().then(datapoints=>{
+                    let teams = [] //array z nazwami teamow
+                    let ludzie = []; //array z iloscia ludzi
+    
+                    for (let obj of datapoints) { // petle gdzie wczytujemy nazwy teamow
+                        var keys = Object.keys(obj); // lista wszystkich kluczy, zeby znac ich ilosc w obiekcie
+                        for (let i=0; i < keys.length; i++) { // iterujemy po kazdym indeksie dla kluczow
+                            if (keys[i] == 'team_name'){ // sprawdzamy czy klucz z danym indeksem to 'team_name'
+                                teams.push(obj[keys[i]]); // dodajemy na koniec listy teamow nazwe teamu, czyli wartosc klucza
+                            }
+                        }
+                    }
+                    let uniqueTeams = [...new Set(teams)]; // tworzymy zbior z teamow ()
+                    teams = Array.from(uniqueTeams); // z powrotem zaminiamy zbior na liste
+                    // console.log(teams);
+        
+                    for (let i=0; i<teams.length; i++) {  // petla gdzie bedziemy dodawac tyle zer ile jest teamow, kazde zero to bedzie licznik
+                        ludzie.push(0) // dodajemy 0 na koniec listy ludzie
+                    }
+        
+                    for (let obj of datapoints) { // petla gdzie bedziemy zliczac ilosc czlonkow dla danego teamu
+                        for (let key of Object.keys(obj)) { // to jeswe, ale przelatujemy po kazdym kluczu obiektu, 
+                                                            // zeby potem sprawdzic czy dla danego klucza wartosc bedzie nazwa teamu
+                            for (let j=0; j<teams.length; j++) // petla do iterowania po teamach
+                            {
+                                if (obj[key] == teams[j]){ // jesli dla wartosci klucza faktycznie jest nazwa teamu o indeksie j 
+                                                          // to do listy ludzi dodajemy 1 dla tego samego indeksu j
+                                    ludzie[j] += 1
+                                }
+                            }
+                        }   
+                    }
+                    console.log(ludzie);
+                    teams.sort();
+                    // return [teams, ludzie]
+                    myChart3.config.data.labels=teams;
+                    myChart3.config.data.datasets[0].data=ludzie;
+                    myChart3.config.data.datasets[0].label="Number of team members";
+                    myChart3.update();
+                })
+                
+            }
+            //WYKRES 1 (GAMES PLAYED)
+            const data = {
+            labels: ['1', '1', '1', '1', '1', '1', '1'],
+            datasets: [{
+                label: '',
+                data: [1, 1, 1, 1, 1, 1, 1],
+                backgroundColor: [
+                'rgba(255, 26, 104, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+                'rgba(0, 0, 0, 0.2)'
+                ],
+                borderColor: [
+                'rgba(255, 26, 104, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+                'rgba(0, 0, 0, 1)'
+                ],
+                borderWidth: 1
+            }]
+            };
+     
+            const config = {
+                type: 'line',
+                data,
+                options: {
+                    plugins: {
+                        title: {
+                          display: true,
+                          text: 'Top 5 players by number of games played',
+                          font:{
+                              size: 18
+                          }
+                        },
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            };
+    
+            const myChart = new Chart(document.getElementById('myChart'), config);
+          
+    
+          //WYKRES 2 (WINRATE)
+            const data2 = {
+                labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+                datasets: [{
+                    label: '',
+                    data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    backgroundColor: [
+                        '#066bcc',
+                // 'rgb(54, 162, 235)',
+                // 'rgb(255, 206, 86)',
+                // 'rgb(75, 192, 192)',
+                // 'rgb(153, 102, 255)',
+                // 'rgb(255, 159, 64)',
+                // 'rgb(0, 0, 0)'
+                    ]
+                }]
+            };
+            
+            const config2 = {
+                type: 'bar',
+                data: data2,
+                options: {
+                    plugins: {
+                        title: {
+                          display: true,
+                          text: 'Top 5 players by their win rate',
+                          font:{
+                              size: 18
+                          }
+                        },
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            };
+    
+            const myChart2 = new Chart(document.getElementById('myChart2'), config2);
+    
+            //WYKRES 3 (TEAM MEMBERS)
+            const data3 = {
+                labels: [
+                    'Red',
+                    'Blue',
+                    'Yellow'
+                ],
+                datasets: [{
+                    label: 'My First Dataset',
+                    data: [300, 50, 100],
+                    backgroundColor: [
+                        '#7d7d7d',
+                        '#367588',
+                        '#2f4f4f',
+                        '#004242'
+                    ],
+                    hoverOffset: 4
+                }]
+            };
+    
+            const config3 = {
+                type: 'bar',
+                data: data3,
+                options: {
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Number of players in each team',
+                            font:{
+                                size: 18
+                            }
+                        },
+                        legend: {
+                            display: false
+                        }
+                    },
+                    indexAxis: 'y',
+                    responsive: true
+                }
+            };
+    
+            const myChart3 = new Chart(document.getElementById('myChart3'), config3);
+
+
+
+            // ===== THEMES ======
+            let all_themes = ['dark', 'default', 'light'];
+
+            if (document.body.classList.length > 0) {
+                for (let theme of all_themes){
+                    document.body.classList.remove(theme);
+                }
+            }
+            document.body.classList.add(localStorage.getItem('theme'));
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- <script src="theme-switch.js"></script> -->
+    </body>
+</html>
