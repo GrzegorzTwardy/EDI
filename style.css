@@ -61,6 +61,20 @@ body.default {
     overflow-y: scroll;
 }
 
+body {
+    background-color: rgb(20, 21, 40);
+    margin: 0;
+
+    font-family: 'gotham', sans-serif;;
+    font-family: 'Exo2';
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: rgb(255, 255, 255);
+
+    overflow-y: scroll;
+}
+
 
 
 
