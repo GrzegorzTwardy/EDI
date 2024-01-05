@@ -1,11 +1,11 @@
 @font-face {
     font-family: Exo2;
-    src: url("/Exo 2/Exo2-Regular.ttf") format('truetype');
+    src: url("Exo2-Regular.ttf") format('truetype');
 }
 
 @font-face {
     font-family: Exo2-Bold;
-    src: url("/Exo 2/Exo2-Bold.ttf") format('truetype');
+    src: url("Exo2-Bold.ttf") format('truetype');
     font-weight: bold;
 }
 
