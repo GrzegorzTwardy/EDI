@@ -1,0 +1,901 @@
+[{
+  "rank": 1,
+  "full_name": "Chen Davey",
+  "nationality": "Botswana",
+  "games_played": 751,
+  "win_percentage": 47.13,
+  "last_login": "26/4/2022",
+  "total_points": 2288,
+  "team_name": "Team A"
+}, {
+  "rank": 2,
+  "full_name": "Sallyann Ghiraldi",
+  "nationality": "Poland",
+  "games_played": 16,
+  "win_percentage": 66.72,
+  "last_login": "10/5/2022",
+  "total_points": 1303,
+  "team_name": "Team B"
+}, {
+  "rank": 3,
+  "full_name": "Vance Wilby",
+  "nationality": "China",
+  "games_played": 130,
+  "win_percentage": 66.71,
+  "last_login": "22/1/2022",
+  "total_points": 2939,
+  "team_name": "Team C"
+}, {
+  "rank": 4,
+  "full_name": "Jeanne Gargett",
+  "nationality": "China",
+  "games_played": 461,
+  "win_percentage": 56.35,
+  "last_login": "10/5/2022",
+  "total_points": 1610,
+  "team_name": "Team A"
+}, {
+  "rank": 5,
+  "full_name": "Jobina Dagless",
+  "nationality": "Indonesia",
+  "games_played": 850,
+  "win_percentage": 76.37,
+  "last_login": "4/3/2022",
+  "total_points": 3719,
+  "team_name": "Team A"
+}, {
+  "rank": 6,
+  "full_name": "Frants McKain",
+  "nationality": "China",
+  "games_played": 830,
+  "win_percentage": 72.12,
+  "last_login": "31/8/2022",
+  "total_points": 1997,
+  "team_name": "None"
+}, {
+  "rank": 7,
+  "full_name": "Chrissie Courtman",
+  "nationality": "Iran",
+  "games_played": 151,
+  "win_percentage": 60.12,
+  "last_login": "4/9/2022",
+  "total_points": 755,
+  "team_name": "Team C"
+}, {
+  "rank": 8,
+  "full_name": "Felecia Crippell",
+  "nationality": "Palestinian Territory",
+  "games_played": 638,
+  "win_percentage": 50.89,
+  "last_login": "14/2/2022",
+  "total_points": 2706,
+  "team_name": "None"
+}, {
+  "rank": 9,
+  "full_name": "Elspeth Gladwell",
+  "nationality": "China",
+  "games_played": 245,
+  "win_percentage": 73.17,
+  "last_login": "2/5/2022",
+  "total_points": 461,
+  "team_name": "Team C"
+}, {
+  "rank": 10,
+  "full_name": "Marquita Schukraft",
+  "nationality": "South Africa",
+  "games_played": 99,
+  "win_percentage": 54.53,
+  "last_login": "10/3/2022",
+  "total_points": 3973,
+  "team_name": "Team C"
+}, {
+  "rank": 11,
+  "full_name": "Eddy Crossgrove",
+  "nationality": "Indonesia",
+  "games_played": 954,
+  "win_percentage": 69.89,
+  "last_login": "27/3/2022",
+  "total_points": 3939,
+  "team_name": "Team C"
+}, {
+  "rank": 12,
+  "full_name": "Jonah Tilt",
+  "nationality": "Indonesia",
+  "games_played": 908,
+  "win_percentage": 70.22,
+  "last_login": "21/2/2022",
+  "total_points": 3294,
+  "team_name": "Team A"
+}, {
+  "rank": 13,
+  "full_name": "Caroline Rudland",
+  "nationality": "China",
+  "games_played": 578,
+  "win_percentage": 45.78,
+  "last_login": "16/2/2022",
+  "total_points": 1777,
+  "team_name": "Team C"
+}, {
+  "rank": 14,
+  "full_name": "Joscelin MacInerney",
+  "nationality": "Philippines",
+  "games_played": 227,
+  "win_percentage": 67.11,
+  "last_login": "17/10/2022",
+  "total_points": 2789,
+  "team_name": "Team A"
+}, {
+  "rank": 15,
+  "full_name": "West Antoniazzi",
+  "nationality": "Philippines",
+  "games_played": 262,
+  "win_percentage": 55.73,
+  "last_login": "20/3/2022",
+  "total_points": 982,
+  "team_name": "None"
+}, {
+  "rank": 16,
+  "full_name": "Fabiano Dorrins",
+  "nationality": "Burkina Faso",
+  "games_played": 584,
+  "win_percentage": 48.65,
+  "last_login": "14/10/2022",
+  "total_points": 423,
+  "team_name": "Team C"
+}, {
+  "rank": 17,
+  "full_name": "Alvin Howsley",
+  "nationality": "Sweden",
+  "games_played": 430,
+  "win_percentage": 64.09,
+  "last_login": "15/7/2022",
+  "total_points": 1687,
+  "team_name": "Team C"
+}, {
+  "rank": 18,
+  "full_name": "Isaak McCrossan",
+  "nationality": "Poland",
+  "games_played": 201,
+  "win_percentage": 51.38,
+  "last_login": "14/11/2022",
+  "total_points": 1413,
+  "team_name": "Team B"
+}, {
+  "rank": 19,
+  "full_name": "Horatia Storah",
+  "nationality": "South Africa",
+  "games_played": 392,
+  "win_percentage": 50.35,
+  "last_login": "4/9/2022",
+  "total_points": 792,
+  "team_name": "Team C"
+}, {
+  "rank": 20,
+  "full_name": "Marylee Sheppard",
+  "nationality": "Thailand",
+  "games_played": 198,
+  "win_percentage": 45.74,
+  "last_login": "8/4/2022",
+  "total_points": 1762,
+  "team_name": "None"
+}, {
+  "rank": 21,
+  "full_name": "Twila Crecy",
+  "nationality": "Norway",
+  "games_played": 878,
+  "win_percentage": 59.46,
+  "last_login": "20/9/2022",
+  "total_points": 3561,
+  "team_name": "None"
+}, {
+  "rank": 22,
+  "full_name": "Kristi Pledger",
+  "nationality": "Thailand",
+  "games_played": 821,
+  "win_percentage": 71.38,
+  "last_login": "8/3/2022",
+  "total_points": 2736,
+  "team_name": "Team B"
+}, {
+  "rank": 23,
+  "full_name": "Keri Kield",
+  "nationality": "Colombia",
+  "games_played": 808,
+  "win_percentage": 72.61,
+  "last_login": "5/4/2022",
+  "total_points": 2982,
+  "team_name": "Team C"
+}, {
+  "rank": 24,
+  "full_name": "Sutherland Foxcroft",
+  "nationality": "Philippines",
+  "games_played": 420,
+  "win_percentage": 47.29,
+  "last_login": "2/2/2022",
+  "total_points": 942,
+  "team_name": "Team B"
+}, {
+  "rank": 25,
+  "full_name": "Pippo Kubin",
+  "nationality": "Portugal",
+  "games_played": 113,
+  "win_percentage": 59.64,
+  "last_login": "28/2/2022",
+  "total_points": 2916,
+  "team_name": "Team C"
+}, {
+  "rank": 26,
+  "full_name": "Allie Tidder",
+  "nationality": "Russia",
+  "games_played": 328,
+  "win_percentage": 58.24,
+  "last_login": "13/11/2022",
+  "total_points": 7,
+  "team_name": "Team A"
+}, {
+  "rank": 27,
+  "full_name": "Beatrice Van der Hoven",
+  "nationality": "Poland",
+  "games_played": 874,
+  "win_percentage": 75.97,
+  "last_login": "30/11/2022",
+  "total_points": 2103,
+  "team_name": "None"
+}, {
+  "rank": 28,
+  "full_name": "Georgine Bisson",
+  "nationality": "Panama",
+  "games_played": 773,
+  "win_percentage": 73.53,
+  "last_login": "13/12/2022",
+  "total_points": 3182,
+  "team_name": "Team C"
+}, {
+  "rank": 29,
+  "full_name": "Vere Lambrook",
+  "nationality": "China",
+  "games_played": 120,
+  "win_percentage": 48.9,
+  "last_login": "26/9/2022",
+  "total_points": 3067,
+  "team_name": "Team B"
+}, {
+  "rank": 30,
+  "full_name": "Dalis Hans",
+  "nationality": "France",
+  "games_played": 335,
+  "win_percentage": 66.18,
+  "last_login": "28/12/2022",
+  "total_points": 2759,
+  "team_name": "Team C"
+}, {
+  "rank": 31,
+  "full_name": "Harriett Lowings",
+  "nationality": "China",
+  "games_played": 607,
+  "win_percentage": 67.56,
+  "last_login": "13/2/2022",
+  "total_points": 3824,
+  "team_name": "None"
+}, {
+  "rank": 32,
+  "full_name": "Jude Lavall",
+  "nationality": "Poland",
+  "games_played": 494,
+  "win_percentage": 65.85,
+  "last_login": "24/11/2022",
+  "total_points": 18,
+  "team_name": "None"
+}, {
+  "rank": 33,
+  "full_name": "Korney Lightowler",
+  "nationality": "China",
+  "games_played": 488,
+  "win_percentage": 61.11,
+  "last_login": "24/8/2022",
+  "total_points": 876,
+  "team_name": "Team B"
+}, {
+  "rank": 34,
+  "full_name": "Angie Peacham",
+  "nationality": "Poland",
+  "games_played": 66,
+  "win_percentage": 56.78,
+  "last_login": "24/7/2022",
+  "total_points": 3272,
+  "team_name": "Team A"
+}, {
+  "rank": 35,
+  "full_name": "Orelee Heiner",
+  "nationality": "China",
+  "games_played": 361,
+  "win_percentage": 59.84,
+  "last_login": "2/9/2022",
+  "total_points": 1085,
+  "team_name": "None"
+}, {
+  "rank": 36,
+  "full_name": "Vyky Lorinez",
+  "nationality": "Russia",
+  "games_played": 502,
+  "win_percentage": 52.43,
+  "last_login": "15/1/2022",
+  "total_points": 253,
+  "team_name": "Team A"
+}, {
+  "rank": 37,
+  "full_name": "Towney Goldthorp",
+  "nationality": "China",
+  "games_played": 867,
+  "win_percentage": 64.79,
+  "last_login": "18/5/2022",
+  "total_points": 1194,
+  "team_name": "Team C"
+}, {
+  "rank": 38,
+  "full_name": "Robbyn Camings",
+  "nationality": "Madagascar",
+  "games_played": 378,
+  "win_percentage": 73.98,
+  "last_login": "25/7/2022",
+  "total_points": 1588,
+  "team_name": "Team A"
+}, {
+  "rank": 39,
+  "full_name": "Ken Brooke",
+  "nationality": "France",
+  "games_played": 543,
+  "win_percentage": 78.7,
+  "last_login": "28/4/2022",
+  "total_points": 2505,
+  "team_name": "Team B"
+}, {
+  "rank": 40,
+  "full_name": "Tobe Meekings",
+  "nationality": "Tajikistan",
+  "games_played": 254,
+  "win_percentage": 58.09,
+  "last_login": "27/1/2022",
+  "total_points": 1648,
+  "team_name": "Team C"
+}, {
+  "rank": 41,
+  "full_name": "Garrard Tench",
+  "nationality": "Finland",
+  "games_played": 306,
+  "win_percentage": 69.64,
+  "last_login": "20/7/2022",
+  "total_points": 970,
+  "team_name": "Team A"
+}, {
+  "rank": 42,
+  "full_name": "Vilhelmina Martinuzzi",
+  "nationality": "Russia",
+  "games_played": 538,
+  "win_percentage": 73.65,
+  "last_login": "13/6/2022",
+  "total_points": 3942,
+  "team_name": "Team A"
+}, {
+  "rank": 43,
+  "full_name": "Moshe Bauckham",
+  "nationality": "Indonesia",
+  "games_played": 413,
+  "win_percentage": 53.33,
+  "last_login": "19/6/2022",
+  "total_points": 737,
+  "team_name": "Team C"
+}, {
+  "rank": 44,
+  "full_name": "Kyle Pagelsen",
+  "nationality": "Afghanistan",
+  "games_played": 250,
+  "win_percentage": 49.5,
+  "last_login": "15/6/2022",
+  "total_points": 2601,
+  "team_name": "Team B"
+}, {
+  "rank": 45,
+  "full_name": "Hollyanne McCaughey",
+  "nationality": "China",
+  "games_played": 893,
+  "win_percentage": 54.95,
+  "last_login": "21/11/2022",
+  "total_points": 3408,
+  "team_name": "Team B"
+}, {
+  "rank": 46,
+  "full_name": "Melinde Handrock",
+  "nationality": "Philippines",
+  "games_played": 922,
+  "win_percentage": 60.85,
+  "last_login": "18/10/2022",
+  "total_points": 359,
+  "team_name": "None"
+}, {
+  "rank": 47,
+  "full_name": "Quinta Manjin",
+  "nationality": "Brazil",
+  "games_played": 835,
+  "win_percentage": 78.23,
+  "last_login": "8/9/2022",
+  "total_points": 264,
+  "team_name": "Team C"
+}, {
+  "rank": 48,
+  "full_name": "Sharleen Lathwood",
+  "nationality": "China",
+  "games_played": 394,
+  "win_percentage": 55.13,
+  "last_login": "19/7/2022",
+  "total_points": 559,
+  "team_name": "Team B"
+}, {
+  "rank": 49,
+  "full_name": "Guillemette Niche",
+  "nationality": "Portugal",
+  "games_played": 582,
+  "win_percentage": 63.88,
+  "last_login": "12/3/2022",
+  "total_points": 2112,
+  "team_name": "Team A"
+}, {
+  "rank": 50,
+  "full_name": "Madelena Fields",
+  "nationality": "Colombia",
+  "games_played": 808,
+  "win_percentage": 79.5,
+  "last_login": "14/1/2022",
+  "total_points": 3074,
+  "team_name": "Team A"
+}, {
+  "rank": 51,
+  "full_name": "Alaster Lory",
+  "nationality": "Russia",
+  "games_played": 406,
+  "win_percentage": 48.61,
+  "last_login": "9/3/2022",
+  "total_points": 165,
+  "team_name": "Team A"
+}, {
+  "rank": 52,
+  "full_name": "Neron Bengtsson",
+  "nationality": "Portugal",
+  "games_played": 72,
+  "win_percentage": 53.18,
+  "last_login": "10/12/2022",
+  "total_points": 3494,
+  "team_name": "Team B"
+}, {
+  "rank": 53,
+  "full_name": "Sebastiano Shipway",
+  "nationality": "France",
+  "games_played": 702,
+  "win_percentage": 72.04,
+  "last_login": "7/6/2022",
+  "total_points": 3177,
+  "team_name": "None"
+}, {
+  "rank": 54,
+  "full_name": "Antons Ivory",
+  "nationality": "Brazil",
+  "games_played": 257,
+  "win_percentage": 51.87,
+  "last_login": "21/8/2022",
+  "total_points": 755,
+  "team_name": "Team B"
+}, {
+  "rank": 55,
+  "full_name": "Yul Burnip",
+  "nationality": "Chile",
+  "games_played": 437,
+  "win_percentage": 78.53,
+  "last_login": "1/1/2022",
+  "total_points": 2660,
+  "team_name": "Team A"
+}, {
+  "rank": 56,
+  "full_name": "Carlynn Umpleby",
+  "nationality": "Indonesia",
+  "games_played": 227,
+  "win_percentage": 51.87,
+  "last_login": "29/8/2022",
+  "total_points": 1614,
+  "team_name": "Team B"
+}, {
+  "rank": 57,
+  "full_name": "Ricky Bonds",
+  "nationality": "Nicaragua",
+  "games_played": 340,
+  "win_percentage": 60.96,
+  "last_login": "12/12/2022",
+  "total_points": 1881,
+  "team_name": "None"
+}, {
+  "rank": 58,
+  "full_name": "Frances Tapin",
+  "nationality": "Japan",
+  "games_played": 684,
+  "win_percentage": 57.64,
+  "last_login": "5/1/2022",
+  "total_points": 1655,
+  "team_name": "Team C"
+}, {
+  "rank": 59,
+  "full_name": "Beulah Heinsius",
+  "nationality": "Hungary",
+  "games_played": 262,
+  "win_percentage": 61.77,
+  "last_login": "7/6/2022",
+  "total_points": 890,
+  "team_name": "None"
+}, {
+  "rank": 60,
+  "full_name": "Roma Parrington",
+  "nationality": "Brazil",
+  "games_played": 417,
+  "win_percentage": 59.6,
+  "last_login": "13/4/2022",
+  "total_points": 2693,
+  "team_name": "Team A"
+}, {
+  "rank": 61,
+  "full_name": "Lula Alejandre",
+  "nationality": "Colombia",
+  "games_played": 958,
+  "win_percentage": 72.27,
+  "last_login": "8/5/2022",
+  "total_points": 2190,
+  "team_name": "Team C"
+}, {
+  "rank": 62,
+  "full_name": "Corbett Lambot",
+  "nationality": "Angola",
+  "games_played": 77,
+  "win_percentage": 69.83,
+  "last_login": "22/1/2022",
+  "total_points": 2532,
+  "team_name": "Team A"
+}, {
+  "rank": 63,
+  "full_name": "Osbourn Rospars",
+  "nationality": "Argentina",
+  "games_played": 742,
+  "win_percentage": 79.7,
+  "last_login": "7/9/2022",
+  "total_points": 3142,
+  "team_name": "Team A"
+}, {
+  "rank": 64,
+  "full_name": "Alfie Asals",
+  "nationality": "Poland",
+  "games_played": 312,
+  "win_percentage": 66.76,
+  "last_login": "13/11/2022",
+  "total_points": 2801,
+  "team_name": "Team A"
+}, {
+  "rank": 65,
+  "full_name": "Zelda Govett",
+  "nationality": "Indonesia",
+  "games_played": 718,
+  "win_percentage": 53.04,
+  "last_login": "6/4/2022",
+  "total_points": 774,
+  "team_name": "Team C"
+}, {
+  "rank": 66,
+  "full_name": "Willyt Keneford",
+  "nationality": "Russia",
+  "games_played": 927,
+  "win_percentage": 54.01,
+  "last_login": "29/4/2022",
+  "total_points": 3810,
+  "team_name": "Team B"
+}, {
+  "rank": 67,
+  "full_name": "Edward Crampton",
+  "nationality": "China",
+  "games_played": 666,
+  "win_percentage": 46.66,
+  "last_login": "7/1/2022",
+  "total_points": 3627,
+  "team_name": "Team B"
+}, {
+  "rank": 68,
+  "full_name": "Thorstein Pigrome",
+  "nationality": "China",
+  "games_played": 499,
+  "win_percentage": 51.9,
+  "last_login": "10/1/2022",
+  "total_points": 747,
+  "team_name": "None"
+}, {
+  "rank": 69,
+  "full_name": "Buffy Kryzhov",
+  "nationality": "China",
+  "games_played": 223,
+  "win_percentage": 72.94,
+  "last_login": "17/6/2022",
+  "total_points": 2485,
+  "team_name": "Team A"
+}, {
+  "rank": 70,
+  "full_name": "Amye Dicky",
+  "nationality": "Poland",
+  "games_played": 829,
+  "win_percentage": 48.0,
+  "last_login": "21/8/2022",
+  "total_points": 1182,
+  "team_name": "Team A"
+}, {
+  "rank": 71,
+  "full_name": "Gaylor Hunton",
+  "nationality": "China",
+  "games_played": 63,
+  "win_percentage": 62.75,
+  "last_login": "25/8/2022",
+  "total_points": 1948,
+  "team_name": "Team C"
+}, {
+  "rank": 72,
+  "full_name": "Selinda Babbage",
+  "nationality": "China",
+  "games_played": 916,
+  "win_percentage": 56.83,
+  "last_login": "22/5/2022",
+  "total_points": 2720,
+  "team_name": "Team A"
+}, {
+  "rank": 73,
+  "full_name": "George Trulock",
+  "nationality": "France",
+  "games_played": 703,
+  "win_percentage": 69.44,
+  "last_login": "24/10/2022",
+  "total_points": 3224,
+  "team_name": "Team A"
+}, {
+  "rank": 74,
+  "full_name": "Efren Tremlett",
+  "nationality": "Uruguay",
+  "games_played": 168,
+  "win_percentage": 65.43,
+  "last_login": "17/4/2022",
+  "total_points": 1837,
+  "team_name": "Team C"
+}, {
+  "rank": 75,
+  "full_name": "Diane Goldsberry",
+  "nationality": "Norway",
+  "games_played": 464,
+  "win_percentage": 53.87,
+  "last_login": "6/2/2022",
+  "total_points": 3696,
+  "team_name": "Team A"
+}, {
+  "rank": 76,
+  "full_name": "Brooks Droogan",
+  "nationality": "Brazil",
+  "games_played": 13,
+  "win_percentage": 62.49,
+  "last_login": "2/3/2022",
+  "total_points": 1650,
+  "team_name": "Team B"
+}, {
+  "rank": 77,
+  "full_name": "Annmarie Chasteau",
+  "nationality": "Mongolia",
+  "games_played": 503,
+  "win_percentage": 60.09,
+  "last_login": "26/3/2022",
+  "total_points": 435,
+  "team_name": "Team A"
+}, {
+  "rank": 78,
+  "full_name": "Hy Worsnup",
+  "nationality": "Israel",
+  "games_played": 811,
+  "win_percentage": 76.44,
+  "last_login": "5/10/2022",
+  "total_points": 3960,
+  "team_name": "Team B"
+}, {
+  "rank": 79,
+  "full_name": "Lazar Netherwood",
+  "nationality": "Indonesia",
+  "games_played": 99,
+  "win_percentage": 60.61,
+  "last_login": "14/1/2022",
+  "total_points": 1295,
+  "team_name": "None"
+}, {
+  "rank": 80,
+  "full_name": "Erin Bruinsma",
+  "nationality": "Russia",
+  "games_played": 226,
+  "win_percentage": 58.68,
+  "last_login": "9/6/2022",
+  "total_points": 1442,
+  "team_name": "Team A"
+}, {
+  "rank": 81,
+  "full_name": "Kayne Alldre",
+  "nationality": "Brazil",
+  "games_played": 293,
+  "win_percentage": 54.94,
+  "last_login": "2/8/2022",
+  "total_points": 886,
+  "team_name": "None"
+}, {
+  "rank": 82,
+  "full_name": "Barny Mc Coughan",
+  "nationality": "Argentina",
+  "games_played": 710,
+  "win_percentage": 48.63,
+  "last_login": "14/6/2022",
+  "total_points": 2347,
+  "team_name": "Team A"
+}, {
+  "rank": 83,
+  "full_name": "Daria Croal",
+  "nationality": "New Zealand",
+  "games_played": 472,
+  "win_percentage": 78.57,
+  "last_login": "18/2/2022",
+  "total_points": 2221,
+  "team_name": "None"
+}, {
+  "rank": 84,
+  "full_name": "Morgen Vayro",
+  "nationality": "Indonesia",
+  "games_played": 360,
+  "win_percentage": 54.83,
+  "last_login": "25/11/2022",
+  "total_points": 2408,
+  "team_name": "Team A"
+}, {
+  "rank": 85,
+  "full_name": "Samara Tesdale",
+  "nationality": "Indonesia",
+  "games_played": 505,
+  "win_percentage": 53.46,
+  "last_login": "26/3/2022",
+  "total_points": 3725,
+  "team_name": "Team B"
+}, {
+  "rank": 86,
+  "full_name": "Willdon Feben",
+  "nationality": "Argentina",
+  "games_played": 579,
+  "win_percentage": 69.84,
+  "last_login": "22/1/2022",
+  "total_points": 368,
+  "team_name": "Team A"
+}, {
+  "rank": 87,
+  "full_name": "Kelcey Kelland",
+  "nationality": "China",
+  "games_played": 212,
+  "win_percentage": 58.75,
+  "last_login": "20/11/2022",
+  "total_points": 51,
+  "team_name": "Team A"
+}, {
+  "rank": 88,
+  "full_name": "Louie Broke",
+  "nationality": "Indonesia",
+  "games_played": 518,
+  "win_percentage": 52.79,
+  "last_login": "9/6/2022",
+  "total_points": 2663,
+  "team_name": "Team A"
+}, {
+  "rank": 89,
+  "full_name": "Ariel Acosta",
+  "nationality": "Philippines",
+  "games_played": 325,
+  "win_percentage": 68.99,
+  "last_login": "24/10/2022",
+  "total_points": 2537,
+  "team_name": "Team C"
+}, {
+  "rank": 90,
+  "full_name": "Constantin Croley",
+  "nationality": "Portugal",
+  "games_played": 172,
+  "win_percentage": 48.16,
+  "last_login": "2/2/2022",
+  "total_points": 3108,
+  "team_name": "Team C"
+}, {
+  "rank": 91,
+  "full_name": "Chloette Boggs",
+  "nationality": "Nicaragua",
+  "games_played": 703,
+  "win_percentage": 52.57,
+  "last_login": "25/2/2022",
+  "total_points": 2322,
+  "team_name": "Team B"
+}, {
+  "rank": 92,
+  "full_name": "Aurelea Kopje",
+  "nationality": "Indonesia",
+  "games_played": 111,
+  "win_percentage": 56.41,
+  "last_login": "10/7/2022",
+  "total_points": 1585,
+  "team_name": "Team C"
+}, {
+  "rank": 93,
+  "full_name": "Maurie Synnot",
+  "nationality": "Guatemala",
+  "games_played": 991,
+  "win_percentage": 56.84,
+  "last_login": "28/9/2022",
+  "total_points": 3811,
+  "team_name": "Team C"
+}, {
+  "rank": 94,
+  "full_name": "Rory Germaine",
+  "nationality": "Turkmenistan",
+  "games_played": 259,
+  "win_percentage": 63.77,
+  "last_login": "23/2/2022",
+  "total_points": 3152,
+  "team_name": "Team B"
+}, {
+  "rank": 95,
+  "full_name": "Avram Westall",
+  "nationality": "Bolivia",
+  "games_played": 263,
+  "win_percentage": 46.12,
+  "last_login": "25/5/2022",
+  "total_points": 989,
+  "team_name": "Team C"
+}, {
+  "rank": 96,
+  "full_name": "Gordan Seabourne",
+  "nationality": "Sweden",
+  "games_played": 967,
+  "win_percentage": 69.61,
+  "last_login": "12/5/2022",
+  "total_points": 3416,
+  "team_name": "None"
+}, {
+  "rank": 97,
+  "full_name": "Dorothee Richarson",
+  "nationality": "South Korea",
+  "games_played": 85,
+  "win_percentage": 46.63,
+  "last_login": "31/5/2022",
+  "total_points": 1102,
+  "team_name": "Team B"
+}, {
+  "rank": 98,
+  "full_name": "Melba Scholfield",
+  "nationality": "Brazil",
+  "games_played": 742,
+  "win_percentage": 58.28,
+  "last_login": "2/8/2022",
+  "total_points": 3070,
+  "team_name": "Team C"
+}, {
+  "rank": 99,
+  "full_name": "Mallory Meeland",
+  "nationality": "Canada",
+  "games_played": 125,
+  "win_percentage": 45.18,
+  "last_login": "9/8/2022",
+  "total_points": 3380,
+  "team_name": "Team A"
+}, {
+  "rank": 100,
+  "full_name": "Corene Thurling",
+  "nationality": "United States",
+  "games_played": 823,
+  "win_percentage": 76.88,
+  "last_login": "9/4/2022",
+  "total_points": 1297,
+  "team_name": "Team B"
+}]
